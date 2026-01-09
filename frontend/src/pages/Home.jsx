@@ -1,11 +1,12 @@
 import React from 'react'
+import Navbar from '../components/common/Navbar'
 
 const Home = () => {
   return (
-    <div className="p-6 text-xl font-bold text-blue-700">
-        CyberThana-Rural Cybercrime Reporting Portal
+    <>
+    <Navbar />
       
-    </div>
+    </>
   )
 }
 
